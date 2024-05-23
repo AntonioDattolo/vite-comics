@@ -1,29 +1,30 @@
 <script>
-import AppHeader from './components/AppHeader.vue';
-import AppMain from './components/AppMain.vue';
-import AppFooter from './components/AppFooter.vue';
-  export default{
-  components:{
+import AppHeader from './components/AppHeader.vue'
+import AppMain from './components/AppMain.vue'
+import AppFooter from './components/AppFooter.vue'
+
+export default {
+  components: {
     AppHeader,
     AppMain,
     AppFooter,
   },
-  data(){
-    return{
+  data() {
+    return {
 
     }
   },
-  methods:{
-    ///
-  },
-  mounted:{
-    
-  }
-  }
+  // methods: {
+  //   ///
+  // },
+  // mounted: {
+
+  // }
+}
 </script>
 
 <template>
-  
+  <AppHeader /> 
 </template>
 
 <style scoped>
