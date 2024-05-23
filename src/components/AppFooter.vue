@@ -16,8 +16,8 @@ export default {
 </script>
 
 <template>
-    <footer class="myBg">
-        <section class="container d-flex">
+    <footer class=" container-fluid myBg">
+        <section class="container d-flex justify-content-space-between">
 
             <!-- sezione con liste -->
             <div class="col-6 d-flex text-decoration-none p-5">
@@ -46,9 +46,9 @@ export default {
                 </div>
             </div>
             <!-- sezione con immagine -->
-            <div class="col-6 d-flex justify-content-center overflow-hidden">
-                <img class="footerBG" src="../assets/dc-logo-bg.png" alt="">
-            </div>
+            
+            <div class="footerBG col-6" src="../assets/dc-logo-bg.png" alt=""></div>
+            
         </section>
     </footer>
     <section class="container-fluid bg-dark d-flex align-content-center" style="height: 100px;">
@@ -72,14 +72,16 @@ export default {
 <style scoped>
  .myBg{
     background-image: url(../assets/footer-bg.jpg);
-    height: 450px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
  }
 .footerBG{
-     height: 530px;
-     top: -40px;
-     position: relative;
-     object-fit: contain;
-     
+    height: 500px;
+    background-image: url(../assets/dc-logo-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 li{
     color: grey;
@@ -97,8 +99,5 @@ h5{
     font-weight: bold;
     font-size: 24px;
     white-space: nowrap;
-}
-.icon{
-    z-index:9999;
 }
 </style>
