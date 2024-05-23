@@ -15,7 +15,7 @@
                         aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-                    <div class="collapse navbar-collapse offset-2 col-9" id="navbarNavDropdown">
+                    <div class="collapse navbar-collapse offset-2 col-9 justify-content-end" id="navbarNavDropdown">
                         <ul class="navbar-nav">
                             <li class="nav-item">
                                 <a class="nav-link active" aria-current="page" href="#">CHARACTERS</a>
