@@ -1,5 +1,23 @@
 <script>
 
+import AppMainChildJumbtron from './AppMainChildJumbtron.vue';
+
+export default {
+  components: {
+   AppMainChildJumbtron,
+  },
+  data() {
+    return {
+
+    }
+  }
+  // methods: {
+  //   ///
+  // },
+  // mounted: {
+
+  // }
+}
 
 
 </script>
@@ -7,8 +25,9 @@
 <template>
   <main>
     <section class="container-fluid bg-dark myHeigth">
+        <AppMainChildJumbtron />
         <div class="container d-flex align-items-center justify-content-start">
-           <h1 class="col-6 text-center h-25"> Content Goes Here </h1>
+           dsadasd
         </div>
     </section>
 
@@ -51,7 +70,7 @@
                 
                 </div>
             </div>
-            <div class="offset-3 col-sm-6 offset-sm-3 col-md-6 offset-md-3 col-lg-2 offset-lg-0 col-xl-2 offset-xl-0 d-flex">
+            <div class="col-sm-6 offset-sm-3 col-md-6 offset-md-3 col-lg-2 offset-lg-0 col-xl-2 offset-xl-0 d-flex">
                 <div class="myCardImg col-12">
                     <img style="width: 90px;" src="../assets/buy-dc-power-visa.svg" alt="">
                     <h6 class="d-inline px-1">
@@ -66,9 +85,9 @@
 </template>
 
 <style scoped>
-    .myHeigth{
+    /* .myHeigth{
         height: 200px;
-    }
+    } */
     img{
         object-fit: contain;
         height: 50%;
