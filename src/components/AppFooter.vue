@@ -20,9 +20,9 @@ export default {
         <section class="container d-flex justify-content-space-between">
 
             <!-- sezione con liste -->
-            <div class="col-6 d-flex text-decoration-none p-5">
+            <div class="col-12 col-md-6 d-flex flex-wrap text-decoration-none">
                 
-                <div class="col-4">
+                <div class="col-4 col-md-6 col-lg-4 py-2">
                     <ul>
                         <h3>DC COMICS</h3>
                         <li v-for="element in links.dcComics">{{ element }}</li>
@@ -32,13 +32,13 @@ export default {
                         <li v-for="element in links.shop">{{ element }}</li>
                     </ul>
                 </div>
-                <div class="col-4">
+                <div class="col-4 col-md-6 col-lg-4 py-2">
                     <ul>
                         <h3>DC</h3>
                         <li v-for="element in links.dc">{{ element }}</li>
                     </ul>
                 </div>
-                <div class="col-4">
+                <div class="col-4 col-md-12 col-lg-4 py-2">
                     <ul>
                         <h3>SITES</h3>
                         <li v-for="element in links.sites">{{ element }}</li>
@@ -47,23 +47,24 @@ export default {
             </div>
             <!-- sezione con immagine -->
             
-            <div class="footerBG col-6" src="../assets/dc-logo-bg.png" alt=""></div>
+            <div class="footerBG d-none d-md-block col-md-6" alt=""></div>
             
         </section>
     </footer>
     <section class="container-fluid bg-dark d-flex align-content-center" style="height: 100px;">
         <div class="container d-flex justify-content-between p-3">
-            <div class="col-2 d-flex align-items-center">
+            <div class="col-6 d-flex align-items-center">
                 <a class="" href="http://">SIGN UP NOW</a>
             </div>
-            <div class="col-6 d-flex align-items-center justify-content-around icon">
-                <h5 class="col-4">FOLLOW US</h5>
-                <img class="col-1" src="../assets/footer-facebook.png" alt="">
-                <img class="col-1" src="../assets/footer-twitter.png" alt="">
-                <img class="col-1" src="../assets/footer-youtube.png" alt="">
-                <img class="col-1" src="../assets/footer-pinterest.png" alt="">
-                <img class="col-1" src="../assets/footer-periscope.png" alt="">
-
+            <div class="col-6 d-flex flex-wrap align-items-center justify-content-around icon">
+                <h5 class="col-12 col-md-6">FOLLOW US</h5>
+                <div class="col-12 col-md-6 d-flex justify-content-between">
+                    <img class="col-2" src="../assets/footer-facebook.png" alt="">
+                    <img class="col-2" src="../assets/footer-twitter.png" alt="">
+                    <img class="col-2" src="../assets/footer-youtube.png" alt="">
+                    <img class="col-2" src="../assets/footer-pinterest.png" alt="">
+                    <img class="col-2" src="../assets/footer-periscope.png" alt="">
+                </div>
             </div>
         </div>
     </section>
@@ -77,7 +78,7 @@ export default {
     
  }
 .footerBG{
-    height: 500px;
+    /* height: 550px; */
     background-image: url(../assets/dc-logo-bg.png);
     background-repeat: no-repeat;
     background-size: cover;

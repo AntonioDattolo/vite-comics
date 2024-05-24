@@ -14,36 +14,51 @@
 
 
     <section class="container-fluid bg-primary h-50">
-        <div class="container d-flex align-items-center justify-content-between py-5">
-            <div class="col-2 d-flex align-items-center justify-content-between gap-2">
-                <img src="../assets/buy-comics-digital-comics.png" alt="">
-                <span>
-                    DIGITAL COMICS
-                </span>
+        <div class="container d-flex align-items-center flex-wrap py-5 justify-content-between">
+            <div class="col-sm-6 col-md-6 col-lg-2 col-xl-2 offset-xl-0 p-lg-0 d-flex">
+                <div class="myCardImg col-12">
+                    <img  src="../assets/buy-comics-digital-comics.png" alt="">
+                    <h6 class="d-inline px-1">
+                        DIGITAL COMICS
+                    </h6>
+                
+                </div>
             </div>
-            <div class="col-2 d-flex align-items-center justify-content-between gap-2">
-                <img src="../assets/buy-comics-merchandise.png" alt="">
-                <span>
-                    DC MERCHANDISE
-                </span>
+            <div class="col-sm-6 col-md-6 col-lg-2 col-xl-2 offset-xl-0 p-2 p-lg-0 d-flex">
+                <div class="myCardImg col-12">
+                    <img  src="../assets/buy-comics-merchandise.png" alt="">
+                    <h6 class="d-inline px-1">
+                        DC MERCHANDISE
+                    </h6>
+                
+                </div>
             </div>
-            <div class="col-2 d-flex align-items-center justify-content-between gap-2">
-                <img src="../assets/buy-comics-subscriptions.png" alt="">
-                <span>
-                    SUBSCRIPTION
-                </span>
+            <div class="col-sm-6 col-md-6 col-lg-2 col-xl-2 offset-xl-0 p-2 p-lg-0 d-flex">
+                <div class="myCardImg col-12">
+                    <img  src="../assets/buy-comics-subscriptions.png" alt="">
+                    <h6 class="d-inline px-1">
+                        SUBSCRIPTION
+                    </h6>
+                
+                </div>
             </div>
-            <div class="col-2 d-flex align-items-center justify-content-between gap-2">
-                <img src="../assets/buy-comics-shop-locator.png" alt="">
-                <span>
-                    COMIC SHOP LOCATOR
-                </span>
+            <div class="col-sm-6 col-md-6 col-lg-2 col-xl-2 offset-xl-0 p-2 p-lg-0 d-flex">
+                <div class="myCardImg col-12">
+                    <img  src="../assets/buy-comics-shop-locator.png" alt="">
+                    <h6 class="d-inline px-1">
+                        COMIC SHOP LOCATOR
+                    </h6>
+                
+                </div>
             </div>
-            <div class="col-2 d-flex align-items-center justify-content-between gap-2">
-                <img style="width: 50%;" src="../assets/buy-dc-power-visa.svg" alt="">
-                <span>
-                    DC POWER VISA
-                </span>
+            <div class="offset-3 col-sm-6 offset-sm-3 col-md-6 offset-md-3 col-lg-2 offset-lg-0 col-xl-2 offset-xl-0 d-flex">
+                <div class="myCardImg col-12">
+                    <img style="width: 90px;" src="../assets/buy-dc-power-visa.svg" alt="">
+                    <h6 class="d-inline px-1">
+                        DC POWER VISA
+                    </h6>
+                
+                </div>
             </div>
         </div>
     </section>
@@ -57,5 +72,18 @@
     img{
         object-fit: contain;
         height: 50%;
+    }
+    div{
+        font-size: 15px;
+        
+        white-space-collapse: collapse;
+    }
+    h6{
+        font-size: 12px;
+    }
+    .myCardImg{
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 </style>
