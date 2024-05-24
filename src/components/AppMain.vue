@@ -1,10 +1,12 @@
 <script>
 
 import AppMainChildJumbtron from './AppMainChildJumbtron.vue';
+import AppMainChildContent from './AppMainChildContent.vue';
 
 export default {
   components: {
    AppMainChildJumbtron,
+   AppMainChildContent
   },
   data() {
     return {
@@ -27,7 +29,7 @@ export default {
     <section class="container-fluid bg-dark myHeigth">
         <AppMainChildJumbtron />
         <div class="container d-flex align-items-center justify-content-start">
-           dsadasd
+           <AppMainChildContent />
         </div>
     </section>
 
