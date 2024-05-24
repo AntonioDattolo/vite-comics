@@ -1,6 +1,8 @@
 <script>
+import AppMainChildSingleCard from './AppMainChildSingleCard.vue';
 export default {
   components: {
+    AppMainChildSingleCard
   
   },
   data() {
@@ -92,12 +94,14 @@ export default {
 <template>
     <section class="container">
         <div class="d-flex flex-wrap p-3">
-            <div v-for="comic in fumetti" class="col-2 bg-transparent">
+            <!-- MILESTONE 1 -->
+            <!-- <div class="col-2 bg-transparent">
                 <img :src="comic.thumb" class="card-img-top p-3" alt="...">
                 <p class="card-text text-white px-2">{{ comic.series }}</p>
-            </div>
-        </div>
+            </div> -->
 
+            <AppMainChildSingleCard v-for="comic in fumetti" :thisComic="comic" />
+        </div>
         <div class="col-12 text-center p-5">
             <button class="btn btn-primary px-4">
                 LOAD MORE
