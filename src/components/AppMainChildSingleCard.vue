@@ -9,7 +9,7 @@ export default{
 </script>
 
 <template>
-    <div  class="col-2 bg-transparent">
+    <div  class="col-12 col-md-4 col-lg-2 bg-transparent">
         <img :src="thisComic.thumb" class="card-img-top p-3" alt="...">
         <p class="card-text text-white px-2">{{ thisComic.series }}</p>
     </div>

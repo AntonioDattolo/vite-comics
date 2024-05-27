@@ -35,7 +35,7 @@ export default {
 
 
     <section class="container-fluid bg-primary h-50">
-        <div class="container d-flex align-items-center flex-wrap py-5 justify-content-between">
+        <div class="container d-flex align-items-center flex-wrap py-5 justify-content-center">
             <div class="col-sm-6 col-md-6 col-lg-2 col-xl-2 offset-xl-0 p-lg-0 d-flex">
                 <div class="myCardImg col-12">
                     <img  src="../assets/buy-comics-digital-comics.png" alt="">

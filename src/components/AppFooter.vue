@@ -51,13 +51,13 @@ export default {
             
         </section>
     </footer>
-    <section class="container-fluid bg-dark d-flex align-content-center" style="height: 100px;">
-        <div class="container d-flex justify-content-between p-3">
-            <div class="col-6 d-flex align-items-center">
+    <section class="container-fluid bg-dark d-flex align-content-center d-flex" style="height: 100px;">
+        <div class="col-12 container d-flex align-items-center justify-content-between flex-wrap p-3">
+            <div class="col-12 col-sm-6 d-flex align-items-center justify-content-center">
                 <a class="" href="http://">SIGN UP NOW</a>
             </div>
-            <div class="col-6 d-flex flex-wrap align-items-center justify-content-around icon">
-                <h5 class="col-12 col-md-6">FOLLOW US</h5>
+            <div class="col-12 col-sm-6 d-flex flex-wrap align-items-center justify-content-between icon">
+                <h5 class="col-12 col-md-6 text-center">FOLLOW US</h5>
                 <div class="col-12 col-md-6 d-flex justify-content-between">
                     <img class="col-2" src="../assets/footer-facebook.png" alt="">
                     <img class="col-2" src="../assets/footer-twitter.png" alt="">
